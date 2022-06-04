@@ -1,0 +1,74 @@
+ [
+    {
+        "month": "January",
+        "steps": 65000,
+        "calorie": 32000,
+        "weight": 73.9
+    },
+    {
+        "month": "Febuary",
+        "steps": 60000,
+        "calorie": 26000,
+        "weight": 70.5
+    },
+    {
+        "month": "March",
+        "steps": 69000,
+        "calorie": 37000,
+        "weight": 69.2
+    },
+    {
+        "month": "April",
+        "steps": 23000,
+        "calorie": 20000,
+        "weight": 78
+    },
+    {
+        "month": "May",
+        "steps": 28000,
+        "calorie": 30000,
+        "weight": 74
+    },
+    {
+        "month": "June",
+        "steps": 80000,
+        "calorie": 40000,
+        "weight": 71
+    },
+    {
+        "month": "July",
+        "steps": 86000,
+        "calorie": 46000,
+        "weight": 67.7
+    },
+    {
+        "month": "August",
+        "steps": 90000,
+        "calorie": 45000,
+        "weight": 65.78
+    },
+    {
+        "month": "September",
+        "steps": 98000,
+        "calorie": 50000,
+        "weight": 62.14
+    },
+    {
+        "month": "October",
+        "steps": 65000,
+        "calorie": 32800,
+        "weight": 63.98
+    },
+    {
+        "month": "November",
+        "steps": 72000,
+        "calorie": 34000,
+        "weight": 63
+    },
+    {
+        "month": "December",
+        "steps": 60000,
+        "calorie": 20000,
+        "weight": 66
+    }
+]
