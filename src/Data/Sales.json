@@ -1,0 +1,28 @@
+[
+    {
+        "year":"2016",
+        "sales":52000,
+        "customers":10000
+    },
+    {
+        "year":"2017",
+        "sales":22500,
+        "customers":20000
+    },
+    {
+        "year":"2018",
+        "sales":23000,
+        "customers":13000
+    },
+    {
+        "year":"2019",
+        "sales":24000,
+        "customers":30000
+    },
+    {
+        "year":"2020",
+        "sales":19000,
+        "customers":5000
+    }
+
+]
