@@ -7,26 +7,15 @@ export const HealthChart = () =>{
   
   ChartJS.register(ArcElement,Tooltip,Legend);
   const [stepssss,setSteps] = useState([]);
-  const [calorie,setCalorie] = useState([]);
-  const [weight,setWeight] = useState([]);
+
 
   
   const fetchSteps = () =>{
      setSteps(HealthData)
   }
 
-  const fetchCalories = () =>{
-      setCalorie(HealthData);
-}
-
-  const fetchWeight = () =>{
-    setWeight(HealthData)
-  }
-
   useEffect(()=>{
     fetchSteps();
-    fetchCalories()
-    fetchWeight();
 },[])
 
 
@@ -51,7 +40,7 @@ const options = {
   },
 };
 
-const dataOne = {
+const data = {
   labels: stepssss.map((value)=>value.month),
   datasets: [{
     label: 'Steps',
@@ -72,7 +61,7 @@ const dataOne = {
 
   return<>
     <div className="HealthChartBox">
-          <Doughnut data={dataOne} options={options} width={130} height={130}/>
+          <Doughnut data={data} options={options} width={130} height={130}/>
     </div>
   </>
 }
