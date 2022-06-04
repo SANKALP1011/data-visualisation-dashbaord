@@ -7,35 +7,26 @@ export const HealthChart = () =>{
   
   ChartJS.register(ArcElement,Tooltip,Legend);
   const [stepssss,setSteps] = useState([]);
-  // const [calorie,setCalorie] = useState([]);
-  // const [weight,setWeight] = useState([]);
+  const [calorie,setCalorie] = useState([]);
+  const [weight,setWeight] = useState([]);
 
-  // const[salesData,setSalesData] = React.useState([]);
-
-  // const fetchSalesData = ()=>{
-  //    setSalesData(Sales)
-  // }
-
-  // React.useEffect(()=>{
-  //   fetchSalesData()
-  // },[])
   
   const fetchSteps = () =>{
      setSteps(HealthData)
   }
 
-//   const fetchCalories = () =>{
-//       setCalorie(HealthData);
-// }
+  const fetchCalories = () =>{
+      setCalorie(HealthData);
+}
 
-//   const fetchWeight = () =>{
-//     setWeight(HealthData)
-//   }
+  const fetchWeight = () =>{
+    setWeight(HealthData)
+  }
 
   useEffect(()=>{
     fetchSteps();
-    // fetchCalories()
-    // fetchWeight();
+    fetchCalories()
+    fetchWeight();
 },[])
 
 
@@ -43,20 +34,27 @@ const options = {
   maintainAspectRatio:false,
   responsive: true,
   plugins: {
-    legend: {
-      position: 'bottom',
-    },
     title: {
       display: true,
-      text: 'Sales',
+      text: 'Steps',
     },
+    tooltips: {
+      callbacks: {
+         label: function(tooltipItem) {
+                return tooltipItem.yLabel;
+         }
+      }
+  },
+  legend: {
+    display: false
+},
   },
 };
 
-const data = {
+const dataOne = {
   labels: stepssss.map((value)=>value.month),
   datasets: [{
-    label: 'My First Dataset',
+    label: 'Steps',
     data: stepssss.map((value)=>value.steps),
     backgroundColor: [
       "#2E0249",
@@ -73,8 +71,8 @@ const data = {
 
 
   return<>
-    <div>
-          <Doughnut data={data} options={options} width={200} height={200}/>
+    <div className="HealthChartBox">
+          <Doughnut data={dataOne} options={options} width={130} height={130}/>
     </div>
   </>
 }

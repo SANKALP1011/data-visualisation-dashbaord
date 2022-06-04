@@ -3,7 +3,8 @@ import DonughtChart from './Components/SalesChart';
 import BarChart from './Components/SavingChart';
 import LineChart  from './Components/CustomerChart';
 import BubbleChart from './Components/RevenueChart';
-import HealthChart from './Components/HealthChart';
+import HealthChart from './Components/StepsChart';
+import  CalorieChart  from './Components/Caloriecharts';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <BarChart/>
         <LineChart/>
         <HealthChart/>
+        <CalorieChart/>
         {/* <BubbleChart/> */}
     </div>
   );

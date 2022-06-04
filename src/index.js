@@ -5,6 +5,8 @@ import "../src/App.css"
 import App from './App';
 import "../src/Styles/DonughtChart.css";
 import "../src/Styles/LineChart.css";
+import "../src/Styles/HealthChart.css";
+import "../src/Styles/CalorieChart.css";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
