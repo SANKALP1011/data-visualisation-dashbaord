@@ -1,8 +1,8 @@
 import React from 'react';
-import DonughtChart from './Components/ DonughtChart';
-import BarChart from './Components/BarChart';
-import  LineChart  from './Components/LineChart';
-import BubbleChart from './Components/BubbleChart';
+import DonughtChart from './Components/SalesChart';
+import BarChart from './Components/SavingChart';
+import  LineChart  from './Components/CustomerChart';
+import BubbleChart from './Components/RevenueChart';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <DonughtChart/>
         <BarChart/>
         <LineChart/>
-        <BubbleChart/>
+        {/* <BubbleChart/> */}
     </div>
   );
 }

@@ -58,7 +58,7 @@ import CustomersData from "../Data/Sales.json";
           },
           title: {
             display: true,
-            text: 'Sales',
+            text: 'Customers',
           },
         },
       };
