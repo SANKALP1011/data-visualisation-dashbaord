@@ -1,8 +1,6 @@
 /*
 Bubble chart component is not working right now , make it work after designinng some other components
 */
-
-
 import React , {useState , useEffect} from "react";
 import { Line } from "react-chartjs-2";
 import {
@@ -19,7 +17,7 @@ import PhaseOneRev from "../Data/PhaseOneRevenue.json";
 import PhaseTwoRev from "../Data/PhaseTwoRevenue.json";
 
 
-export const BubbleChart = () =>{
+export const RevenueChart = () =>{
 
 ChartJS.register(
     CategoryScale,
@@ -35,15 +33,15 @@ ChartJS.register(
     const [companyTwoIncome,setCompanyTwoIncome] = useState([]);
 
     const fetchOneRevenue = () =>{
-       setCompanyPhaseOneRevenue(PhaseTwoRev);
+       setCompanyPhaseOneRevenue(PhaseOneRev);
     }
     
     const fetchTwoRevenue = () =>{
         setCompanyTwoIncome(PhaseTwoRev)
-        console.log(companyTwoIncome.map((value)=>value.year))
     }
 
    useEffect(()=>{
+     fetchOneRevenue()
      fetchTwoRevenue();
    })
 
@@ -58,7 +56,7 @@ ChartJS.register(
     plugins: {
       title: {
         display: true,
-        text: 'Chart.js Line Chart - Multi Axis',
+        text: 'Phasewise Reveneu of the company',
       },
     },
     scales: {
@@ -79,8 +77,8 @@ ChartJS.register(
     };
   
 
-   const data = [{
-          labels: ["20122"],
+   const data = {
+          labels: companyPhaseOneRevenue.map((value)=>value.year),
           datasets: [{
             label:"Phase One",
             data: companyPhaseOneRevenue.map((value)=>value.revnue),
@@ -94,8 +92,9 @@ ChartJS.register(
           borderColor: 'rgb(53, 162, 235)',
           backgroundColor: 'rgba(53, 162, 235, 0.5)',
           yAxisID: 'y1',
-        }]
-   }]
+        },
+      ]
+   }
 
  
   return<>
@@ -105,4 +104,4 @@ ChartJS.register(
   </>
 
 }
-export default BubbleChart
+export default RevenueChart;

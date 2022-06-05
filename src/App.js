@@ -2,7 +2,7 @@ import React from 'react';
 import DonughtChart from './Components/SalesChart';
 import BarChart from './Components/SavingChart';
 import LineChart  from './Components/CustomerChart';
-import BubbleChart from './Components/RevenueChart';
+import RevenueChart from "../src/Components/RevenueChart"
 import HealthChart from './Components/StepsChart';
 import  CalorieChart  from './Components/Caloriecharts';
 import WeightChart  from './Components/WeightChart';
@@ -16,7 +16,7 @@ function App() {
         <HealthChart/>
         <CalorieChart/>
         <WeightChart/>
-        {/* <BubbleChart/> */}
+        <RevenueChart/>
     </div>
   );
 }
