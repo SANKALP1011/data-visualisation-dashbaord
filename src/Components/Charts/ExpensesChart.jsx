@@ -10,7 +10,7 @@ import {
     Tooltip,
     Legend,
   } from 'chart.js';
-import Expenses from "../Data/Savings.json";
+import Expenses from "../../Data/Savings.json";
 
 export const ExpensesChart = () =>{
     const [expnese,setExpense] = useState([]);

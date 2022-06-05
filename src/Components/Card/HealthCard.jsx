@@ -1,7 +1,7 @@
 import React from "react";
-import CalorieChart from "../Caloriecharts";
-import StepsChart from "../StepsChart";
-import WeightChart from "../WeightChart";
+import CalorieChart from "../Charts/Caloriecharts";
+import StepsChart from "../Charts/StepsChart";
+import WeightChart from "../Charts/WeightChart";
 
 export const HealthCard = () =>{
     return(

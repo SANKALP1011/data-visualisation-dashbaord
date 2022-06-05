@@ -9,7 +9,7 @@ import {
     Tooltip,
     Legend,
   } from 'chart.js';
-import Savings from "../Data/Savings.json";
+import Savings from "../../Data/Savings.json";
 
 
 export const BarChart = () =>{

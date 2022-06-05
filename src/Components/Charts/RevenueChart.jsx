@@ -13,8 +13,8 @@ import {
   Tooltip,
   Legend,
 } from 'chart.js';
-import PhaseOneRev from "../Data/PhaseOneRevenue.json";
-import PhaseTwoRev from "../Data/PhaseTwoRevenue.json";
+import PhaseOneRev from "../../Data/PhaseOneRevenue.json";
+import PhaseTwoRev from "../../Data/PhaseTwoRevenue.json";
 
 
 export const RevenueChart = () =>{

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Doughnut } from "react-chartjs-2";
 import {Chart as ChartJS , ArcElement , Tooltip , Legend} from "chart.js";
-import HealthData from "../Data/HealthData.json";
+import HealthData from "../../Data/HealthData.json";
 
 export const CalorieChart = ()=>{
     const [calories,setCalories] = useState([]);

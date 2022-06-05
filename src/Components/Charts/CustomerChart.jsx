@@ -10,7 +10,7 @@
     Tooltip,
     Legend,
   } from 'chart.js';
-import CustomersData from "../Data/Sales.json";
+import CustomersData from "../../Data/Sales.json";
   ChartJS.register(
     CategoryScale,
     LinearScale,
