@@ -1,0 +1,15 @@
+.GroceryList{
+    text-align: center;
+    width: 20%;
+    height: 30%;
+    margin: 5% auto;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.GroceryList h2{
+    font-size: 30px;
+    color: #FFE6E6;
+}
+h2{
+    color: black;
+}
