@@ -5,6 +5,7 @@ import LineChart  from './Components/CustomerChart';
 import BubbleChart from './Components/RevenueChart';
 import HealthChart from './Components/StepsChart';
 import  CalorieChart  from './Components/Caloriecharts';
+import WeightChart  from './Components/WeightChart';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <LineChart/>
         <HealthChart/>
         <CalorieChart/>
+        <WeightChart/>
         {/* <BubbleChart/> */}
     </div>
   );

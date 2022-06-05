@@ -7,6 +7,7 @@ import "../src/Styles/DonughtChart.css";
 import "../src/Styles/LineChart.css";
 import "../src/Styles/HealthChart.css";
 import "../src/Styles/CalorieChart.css";
+import "../src/Styles/WeightChart.css";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

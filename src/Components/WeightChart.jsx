@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from "react";
 import { Doughnut } from "react-chartjs-2";
-import {Chart as ChartJS , ArcElement , Tooltip , Legend} from "chart.js";
+import {Chart as ChartJS , Tooltip,Legend,ArcElement} from "chart.js";
 import HealthData from "../Data/HealthData.json";
 
-export const CalorieChart = ()=>{
-    const [calories,setCalories] = useState([]);
+export const WeightChart = () =>{
+    const [weight,setWeight] = useState([]);
 
-    const fetchCalories = () =>{
-        setCalories(HealthData);
+    const fetchWeight = () =>{
+        setWeight(HealthData)
     }
-    
+
     useEffect(()=>{
-        fetchCalories()
-    },[]);   
+        fetchWeight()
+    },[]);
 
     const options = {
         maintainAspectRatio:false,
@@ -20,7 +20,7 @@ export const CalorieChart = ()=>{
         plugins: {
           title: {
             display: true,
-            text: 'Calories',
+            text: 'Weight',
           },
           tooltips: {
             callbacks: {
@@ -34,12 +34,12 @@ export const CalorieChart = ()=>{
       },
         },
       };
-      
+
       const data = {
-        labels: calories.map((value)=>value.month),
+        labels: weight.map((value)=>value.month),
         datasets: [{
-          label: 'Calories',
-          data: calories.map((value)=>value.calorie),
+          label: 'Weight',
+          data: weight.map((value)=>value.weight),
           backgroundColor: [
             "#2E0249",
             "#FF0000",
@@ -53,11 +53,10 @@ export const CalorieChart = ()=>{
       };
 
       return<>
-        <div className="CalorieChartBox">
-            <Doughnut data={data} options={options} width={130} height={130}/>
-        </div>
+         <div className="WeightChartBox">
+             <Doughnut data={data} options={options} width={130} height={130}/>
+         </div>
       </>
-      
-    
+
 }
-export default CalorieChart;
+export default WeightChart;
