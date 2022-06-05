@@ -45,7 +45,14 @@ export const WeightChart = () =>{
             "#FF0000",
             "#570A57",
             "#00FFDD",
-            "#FF0075"
+            "#FF0075",
+            "#F1D00A",
+            "#C996CC",
+            "#F73D93",
+            "#1E5128",
+            "#FF4C29",
+            "#C6DE41",
+            "#141010"
           ],
           hoverOffset: 4
         }],

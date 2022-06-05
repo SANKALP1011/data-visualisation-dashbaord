@@ -8,6 +8,9 @@ import "../src/Styles/LineChart.css";
 import "../src/Styles/HealthChart.css";
 import "../src/Styles/CalorieChart.css";
 import "../src/Styles/WeightChart.css";
+import "../src/Styles/Card/HealthCard.css";
+import "../src/Styles/Font/Fonts.css";
+import "../src/Styles/ExpenseChart.css";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

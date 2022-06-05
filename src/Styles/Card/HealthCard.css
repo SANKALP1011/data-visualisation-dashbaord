@@ -1,0 +1,13 @@
+.HealthCard{
+    display: flex;
+    width: 40%;
+    height: 40%;
+    margin: 2% 30% 10% 30%;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    text-align: center;
+}
+/* .Charts{
+    display: flex; 
+    margin: 2% auto;
+} */

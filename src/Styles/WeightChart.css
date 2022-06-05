@@ -1,7 +1,7 @@
 .WeightChartBox{
-    width: 15%;
-    height: 70%;
-    margin: 5% 30% 2% 30%;
+    width: 20%;
+    height: 30%;
+    margin: 5% auto;
     border-radius: 15px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 } 

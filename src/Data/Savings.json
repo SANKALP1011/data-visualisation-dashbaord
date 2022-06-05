@@ -1,22 +1,27 @@
 [
     {
         "year":"2016",
-        "savings":65000
+        "savings":65000,
+        "expenses": 45000
     },
     {
         "year":"2017",
-        "savings":48000
+        "savings":48000,
+        "expenses": 20000
     },
     {
         "year":"2018",
-        "savings":69000
+        "savings":69000,
+        "expenses": 15000
     },
     {
         "year":"2019",
-        "savings":40000
+        "savings":40000,
+        "expenses": 55000
     },
     {
         "year":"2020",
-        "savings":30000
+        "savings":30000,
+        "expenses": 27000
     }
 ]

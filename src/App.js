@@ -3,9 +3,8 @@ import DonughtChart from './Components/SalesChart';
 import BarChart from './Components/SavingChart';
 import LineChart  from './Components/CustomerChart';
 import RevenueChart from "../src/Components/RevenueChart"
-import HealthChart from './Components/StepsChart';
-import  CalorieChart  from './Components/Caloriecharts';
-import WeightChart  from './Components/WeightChart';
+import HealthCard from './Components/Card/HealthCard';
+import ExpensesChart from './Components/ExpensesChart';
 
 function App() {
   return (
@@ -13,10 +12,9 @@ function App() {
       <DonughtChart/>
         <BarChart/>
         <LineChart/>
-        <HealthChart/>
-        <CalorieChart/>
-        <WeightChart/>
         <RevenueChart/>
+        <HealthCard/>
+        <ExpensesChart/>
     </div>
   );
 }
