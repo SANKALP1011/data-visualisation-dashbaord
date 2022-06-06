@@ -61,6 +61,15 @@ import CustomersData from "../../Data/Sales.json";
             text: 'Customers',
           },
         },
+        animations: {
+          tension: {
+            duration: 1000,
+            easing: 'linear',
+            from: 1,
+            to: 0,
+            loop: true
+          }
+        }
       };
 
       return<>

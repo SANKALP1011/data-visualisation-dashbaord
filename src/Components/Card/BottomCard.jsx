@@ -1,15 +1,10 @@
 import React from "react";
-import ExpensesChart from "../Charts/ExpensesChart";
-import RevenueChart from "../Charts/RevenueChart";
-import { HealthBox } from "./HealthBox";
+import HealthCard from "./HealthCard";
 
 export const BottomCard = () =>{
     return(
         <div className="BottomCard">
-            <ExpensesChart/>
-            <RevenueChart/>
-            <HealthBox/>
+            <HealthCard/>
         </div>
     )
 }
-export default BottomCard;

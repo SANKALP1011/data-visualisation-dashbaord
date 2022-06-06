@@ -7,12 +7,14 @@ import HealthCard from './Components/Card/HealthCard';
 import ExpensesChart from './Components/Charts/ExpensesChart';
 import { GroceryCard } from './Components/Card/GroceryCard';
 import TopCard from './Components/Card/TopCard';
-import BottomCard from './Components/Card/BottomCard';
+import MidCard from './Components/Card/MidCard';
+import { BottomCard } from './Components/Card/BottomCard';
 
 function App() {
   return (
     <div className="App">
       <TopCard/>
+      <MidCard/>
       <BottomCard/>
       {/* <DonughtChart/>
         <BarChart/>
