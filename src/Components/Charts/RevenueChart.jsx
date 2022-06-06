@@ -98,7 +98,7 @@ ChartJS.register(
 
  
   return<>
-     <div className="LineChartBox">
+     <div className="LineChartBoxTwo">
          <Line data={data} options={options} width={200} height={200}/>
      </div>
   </>
