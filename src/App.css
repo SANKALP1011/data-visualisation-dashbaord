@@ -40,7 +40,38 @@
 .BarChartBox{
   width: 25%;
   height: 60%;
-  margin: 15% 3% 0 3%;
+  margin: 10% 3% 0 3%;
   border-radius: 15px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+.custom-shape-divider-bottom-1654528598 {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1654528598 svg {
+  position: relative;
+  display: block;
+  width: calc(101% + 1.3px);
+  height: 185px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1654528598 .shape-fill {
+  fill: #FF4C29;
+}
+
+.RandomCard{
+  background-color: black;
+  width: 30%;
+  height: 60%;
+  margin: 5% 0 0 5%;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
 }

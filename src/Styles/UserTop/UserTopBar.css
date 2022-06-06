@@ -1,0 +1,13 @@
+.UserTop{
+  width: 10%;
+  height: 30%;
+  margin: 1% 5% 0 80%;
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.UserTop img{
+    width: 50px;
+    height: 40px;
+    border-radius: 50px;
+}
