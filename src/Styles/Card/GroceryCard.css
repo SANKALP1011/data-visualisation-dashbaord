@@ -7,14 +7,13 @@
 }
 .GroceryList{
     text-align: center;
-    width: 40%;
+    width: 50%;
     height: 30%;
     margin: 10% auto;
     border-radius: 15px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 .GroceryList h2{
-    margin: 4% auto;
     font-size: 15px;
     color: #371B58;
 }

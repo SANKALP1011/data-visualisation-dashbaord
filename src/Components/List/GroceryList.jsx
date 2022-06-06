@@ -15,7 +15,11 @@ export const GroceryList = () =>{
     return<>
         <div className="GroceryList">
             {grocery.map((value)=>
-                   <h2>{value.name}</h2>
+            <ul>
+                <li>
+                <h2>{value.name}</h2>
+                </li>
+            </ul>
                 )}
         </div>
         </>
