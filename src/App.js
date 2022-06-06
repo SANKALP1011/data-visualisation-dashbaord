@@ -5,7 +5,7 @@ import LineChart  from './Components/Charts/CustomerChart';
 import RevenueChart from "./Components/Charts/RevenueChart"
 import HealthCard from './Components/Card/HealthCard';
 import ExpensesChart from './Components/Charts/ExpensesChart';
-import GroceryList from './Components/List/GroceryList';
+import { GroceryCard } from './Components/Card/GroceryCard';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <RevenueChart/>
         <HealthCard/>
         <ExpensesChart/>
-        <GroceryList/>
+        <GroceryCard/>
     </div>
   );
 }

@@ -1,15 +1,20 @@
-.GroceryList{
-    text-align: center;
-    width: 20%;
+.GroceryCard{
+    width: 15%;
     height: 30%;
     margin: 5% auto;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+}
+.GroceryList{
+    text-align: center;
+    width: 40%;
+    height: 30%;
+    margin: 10% auto;
     border-radius: 15px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 .GroceryList h2{
-    font-size: 30px;
-    color: #FFE6E6;
-}
-h2{
-    color: black;
+    margin: 4% auto;
+    font-size: 15px;
+    color: #371B58;
 }

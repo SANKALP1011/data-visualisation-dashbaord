@@ -14,12 +14,9 @@ export const GroceryList = () =>{
 
     return<>
         <div className="GroceryList">
-            {grocery.map((value)=>{
-                 
-                        <h2>{value.name}</h2>
-
-
-            })}
+            {grocery.map((value)=>
+                   <h2>{value.name}</h2>
+                )}
         </div>
         </>
 
