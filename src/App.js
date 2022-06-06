@@ -6,17 +6,19 @@ import RevenueChart from "./Components/Charts/RevenueChart"
 import HealthCard from './Components/Card/HealthCard';
 import ExpensesChart from './Components/Charts/ExpensesChart';
 import { GroceryCard } from './Components/Card/GroceryCard';
+import TopCard from './Components/Card/TopCard';
 
 function App() {
   return (
     <div className="App">
-      <DonughtChart/>
+      <TopCard/>
+      {/* <DonughtChart/>
         <BarChart/>
         <LineChart/>
         <RevenueChart/>
         <HealthCard/>
         <ExpensesChart/>
-        <GroceryCard/>
+        <GroceryCard/> */}
     </div>
   );
 }

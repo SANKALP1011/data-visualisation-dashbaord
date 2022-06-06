@@ -3,7 +3,7 @@ import { Doughnut } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import Sales from "../../Data/Sales.json";
 
-export const DonughtChart = () =>{
+export const SalesChart = () =>{
     ChartJS.register(ArcElement,Tooltip,Legend);
 
     const[salesData,setSalesData] = React.useState([]);
@@ -55,4 +55,4 @@ export const DonughtChart = () =>{
          
     </>
 }
-export default DonughtChart;
+export default SalesChart;

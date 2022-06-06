@@ -12,7 +12,7 @@ import {
 import Savings from "../../Data/Savings.json";
 
 
-export const BarChart = () =>{
+export const SavingsChart = () =>{
 
     ChartJS.register( CategoryScale,
         LinearScale,
@@ -74,4 +74,4 @@ export const BarChart = () =>{
        </div>
     </>
 }
-export default BarChart;
+export default SavingsChart;

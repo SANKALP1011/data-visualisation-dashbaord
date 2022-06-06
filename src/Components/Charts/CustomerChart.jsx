@@ -21,7 +21,7 @@ import CustomersData from "../../Data/Sales.json";
     Legend
   );
 
-  export const LineChart = () =>{
+  export const CustomerChart = () =>{
       const [customers,setCustomers] = useState([]);
 
       const fetchCustomnersData = () =>{
@@ -71,4 +71,4 @@ import CustomersData from "../../Data/Sales.json";
     
 
   }
-  export default LineChart
+  export default CustomerChart
